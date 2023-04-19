@@ -131,7 +131,6 @@ a {
 
 /* a */
 .header-link {
-    position: relative;
     padding-top: 24px;
     padding-bottom: 24px;
     display: block;
@@ -152,9 +151,12 @@ a {
     color: #404BBF;
 }
 
-.header-link::after,
-.header-link::after {
-    content: "";
+.current {
+    position: relative;
+}
+
+.current::after {
+    content: '';
     position: absolute;
     left: 0;
     bottom: 0;
@@ -831,6 +833,8 @@ a {
     background: #E7E9FC;
     border: 1px solid rgba(0, 0, 0, 0.1);
     transition: fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .close-modal:hover,
