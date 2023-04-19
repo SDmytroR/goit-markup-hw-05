@@ -836,8 +836,8 @@ a {
 .close-modal:hover,
 .close-modal:focus {
     background-color: #404BBF;
-    cursor: pointer;
     fill: #FFFFFF;
+    cursor: pointer;
 }
 
 /* THE END */
