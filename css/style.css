@@ -830,6 +830,14 @@ a {
     border-radius: 50%;
     background: #E7E9FC;
     border: 1px solid rgba(0, 0, 0, 0.1);
+    transition: fill;
+}
+
+.close-modal:hover,
+.close-modal:focus {
+    background-color: #404BBF;
+    cursor: pointer;
+    fill: #FFFFFF;
 }
 
 /* THE END */
